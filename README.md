@@ -86,5 +86,3 @@ Realiza tus cambios y haz commits descriptivos.
 
 Envía un pull request detallando los cambios realizados.
 
-📄 Licencia
-
