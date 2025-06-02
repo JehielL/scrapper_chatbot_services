@@ -50,6 +50,7 @@ def scrape():
         current_app.logger.error(f"❌ Error en /scrape: {e}", exc_info=True)
         return jsonify({"error": f"Error interno: {str(e)}"}), 500
 
+
 @routes_bp.route('/contextos', methods=['GET'])
 def listar_contextos():
     import os
